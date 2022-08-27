@@ -1,7 +1,7 @@
 {
-  "name": "react-parcel-express-base",
-  "version": "0.0.1",
-  "description": "Base for web aplication (using React + Parcel + Express)",
+  "name": "simple-react-todo",
+  "version": "1.0.0",
+  "description": "Simple ToDo application (made with React + Axios + Express)",
   "source": "src/index.html",
   "type": "module",
   "scripts": {
