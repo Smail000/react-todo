@@ -1,0 +1,22 @@
+
+
+
+.todo-list {
+    color: white;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+.todo-item {
+    display: flex;
+    margin: 0px 20px;
+    font-size: 15px;
+}
+
+.todo-item > p {
+    margin-left: 30;
+}
+
+.done {
+    text-decoration: line-through;
+}
