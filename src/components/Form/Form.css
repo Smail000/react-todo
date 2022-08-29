@@ -1,24 +1,32 @@
 
 .form {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    left: 5px;
+    bottom: 5px;
     display: flex;
     flex-wrap: wrap;
-    color: red;
     justify-items: auto;
 }
 
 #feild {
-    border: 1px solid red;
-    border-radius: 10px;
+    width: 93%;
+    border: none;
     outline: none;
+    background-color: rgb(234,223,209);
+    border-bottom: 2px solid rgb(106,99,89);
 }
 
 #btn {
-    border-radius: 50%;
-    background-color: aqua;
+    border-radius: 10px;
+    width: 6%;
+    background-color: rgb(106,99,89);
+    color: rgb(234,223,209);
     border: none;
-    width: 20px;
+    text-align: center;
 }
 
 #btn:active {
-    background-color: rgb(0, 175, 175);
+    background-color: rgb(179, 167, 151);
 }

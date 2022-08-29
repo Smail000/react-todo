@@ -2,21 +2,33 @@
 
 
 .todo-list {
-    color: white;
+    color: rgb(67,66,64);
     border-radius: 20px;
-    background-color: blue;
+    background-color: rgb(211,186,160);
 }
 
 .todo-item {
     display: flex;
     margin: 0px 20px;
     font-size: 15px;
-}
-
-.todo-item > p {
-    margin-left: 30;
+    justify-content: space-between;
 }
 
 .done {
     text-decoration: line-through;
+}
+
+.del {
+    margin: auto 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(179, 167, 151);
+    background-color: rgb(106,99,89);
+}
+
+.del:active {
+    background-color: rgb(179, 167, 151);
+    color: rgb(106,99,89);
 }

@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto&display=swap');
 
-.main {
-    margin: auto;
-    max-width: 800px;
-    background-color: lavender;
+body {
+    background-color: rgb(211,205,197);
+}
+
+#root {
+    display: flex;
+    justify-content: center;
     font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: block;
+    width: 80%;
+    min-width: none;
 }

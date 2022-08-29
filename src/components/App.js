@@ -31,11 +31,22 @@ export default function App(props) {
         },
     ])
 
+    const deleteTodo = key => {
+        console.log(key)
+        setTodos([...todos].filter(todo => todo.key !== key))
+    }
+
     return (
         <div className="main">
             <Header />
-            <TodoList todos={todos}/>
-            <Form></Form>
+            <TodoList todos={todos} deleteTodo={deleteTodo}/>
+            <Form callback={(value) => setTodos([...todos, {
+                key: Date.now(),
+                title: value,
+                done: false
+            }])} />
+
+            <div style={{height: 50}} />
         </div>
     )
 }
